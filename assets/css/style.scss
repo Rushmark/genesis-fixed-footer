@@ -1,0 +1,128 @@
+/* Fixed Footer
+--------------------------------------------------- */
+
+.fixed-footer {
+		background-color: #2483d0;
+		position:fixed;
+		bottom:0;
+		z-index:9999;
+		width:100%;
+	}
+
+.fixed-footer .widget {
+	margin-bottom:0;
+	max-width:1140px;
+	margin:0 auto;
+}
+
+/* widget area */
+.fixed-footer .textwidget.custom-html-widget {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;	
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) { 	
+	.fixed-footer .textwidget.custom-html-widget {
+	    flex-direction: row;
+	}
+	
+}
+
+.fixed-footer .footer-image,
+.fixed-footer .footer-cta,
+.fixed-footer .contact-details, 	
+.fixed-footer .expert-call-back {
+		order: 0;	
+		flex: 1 1 auto;
+		align-self: auto;
+}
+
+
+.fixed-footer .footer-cta p {
+	font-size: 1em;
+	font-weight:700;
+	margin:0;
+}
+
+
+.fixed-footer .contact-details a {
+	text-decoration:none;
+}
+
+.fixed-footer p {
+	color:#fff;
+}
+
+/* box */ 
+
+.fixed-footer .box {
+	width:180px;
+	border:1px solid #fff;
+	border-radius:4px;
+	margin:5px 0;
+}
+
+.fixed-footer .box p {
+	font-weight:700;
+	vertical-align:baseline;
+	text-transform:capitalize;
+	padding:10px;
+	line-height:1.2;
+	text-align:center;
+}
+
+.fixed-footer .box a {
+	text-decoration:none;
+}
+
+
+.fixed-footer .expert-call-back {
+
+	background-color:#59c6f5;
+}
+
+
+.fixed-footer .expert-call-back :hover {
+	background-color: #273362;
+}
+
+
+
+/* image */
+.fixed-footer .footer-image {
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	.fixed-footer .footer-image img {
+		margin-top: -80px;
+// 		width:150px;
+		max-height: 100px;
+	}
+	.fixed-footer .footer-image {
+		display: inherit;
+		flex: 0 0 auto;
+		align-self: flex-end;		
+	}
+	.fixed-footer .footer-cta {
+		flex: 0 0 auto;
+		p {
+		font-size: 1.2em;}
+	}
+	.fixed-footer .contact-details {
+		flex: 0 0 auto;
+		a{
+			color: #fff;
+		}
+	}
+	.fixed-footer .expert-call-back {
+		flex: 0 0 200px;
+	}
+		
+}
+
