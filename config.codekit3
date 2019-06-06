@@ -9,18 +9,13 @@
 	],
 "creatorBuild": "29156",
 "files": {
-	"/assets/css/style copy.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/css/style copy.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"oAP": "/.gitignore",
+		"oF": 0
 		},
 	"/assets/css/style.css": {
 		"aP": 1,
@@ -59,6 +54,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/genesis-fixed-footer.php",
+		"oF": 0
+		},
+	"/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/LICENSE",
 		"oF": 0
 		},
 	"/readme.md": {

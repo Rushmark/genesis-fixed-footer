@@ -3,6 +3,7 @@
 
 .fixed-footer {
 		background-color: #2483d0;
+		background-color: rgba(35, 131, 209, 0.8);
 		position:fixed;
 		bottom:0;
 		z-index:9999;
@@ -61,7 +62,6 @@
 /* box */ 
 
 .fixed-footer .box {
-	width:180px;
 	border:1px solid #fff;
 	border-radius:4px;
 	margin:5px 0;
@@ -123,6 +123,7 @@
 	.fixed-footer .expert-call-back {
 		flex: 0 0 200px;
 	}
-		
+	.fixed-footer .box {
+	width:180px;}
 }
 
